@@ -436,6 +436,9 @@ border-radius: 20px;
     transform: translateX(-10px);
     /* height:40px; */
 }
+.message{
+    display: none;
+}
 @media (max-width:1250px){
     .promotions-img{
         display: none;
@@ -451,14 +454,41 @@ border-radius: 20px;
     }
 }
 @media (max-width:960px){
-    .logo-gabut{
-        display: none;
-    }
-    .navbar-ekstra{
-        display: none;
-    }
+.hero-section{
+    display: none;
 }
-@media (max-width:800px){
+.main-section{
+    display: none;
+}
+.main-topic{
+    display: none;
+}
+.profile{
+    display: none;
+}
+.promotions{
+    display: none;
+}
+.features{
+    display: none;
+}
+.features-option{
+    display: none;
+}
+.footer{
+    display: none;
+}
+.navbar{
+    display: none;
+}
+.message{
+    display: inline;
+}
+/* body{
+    background: black; 
+} */
+}
+/* @media (max-width:800px){
     body{
         background-color: black;
     }
@@ -470,4 +500,4 @@ border-radius: 20px;
         display: none;
     }
     .blur{display: none;}
-}
+} */
