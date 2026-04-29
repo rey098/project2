@@ -75,7 +75,7 @@ nav{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 90vh;
+    min-height: 90vh;
 }
 .hero-section::after{
     position: absolute;
@@ -84,12 +84,12 @@ nav{
     content: '';
     background: linear-gradient(0deg, rgb(10, 10, 10) 8%,rgba(255,255,255,0) 50%);
     width: 100%;
-    height: 90vh;
+    min-height: 90vh;
 }
 .blur{
     /* margin-top: 4.9rem; */
     width: 100%;
-    height: 90vh;
+    min-height: 90vh;
     position: absolute;
     top: 4.9rem;
     left: 0;
@@ -376,7 +376,7 @@ border-radius: 20px;
     width: 100%;
     display: flex;
     justify-content: center;
-    overflow:hidden;
+
 }
 .footer{
     width: 100%;
